@@ -99,7 +99,7 @@ a {
 }
 
 .container div {
-  flex: 1 1 140px;
+  flex: 1 1 280px;
 }
 
 @media (max-width:370px) {
@@ -118,6 +118,7 @@ a {
 
 .img-side img {
   border-radius: var(--radius);
+  min-width: 200px;
 }
 
 /* BOTÃO */
@@ -127,7 +128,7 @@ a {
   font-size: clamp(0.8125rem, 1rem, 1.125rem);
   color: #090A0E;
   padding: 4% 9%;
-  background: linear-gradient(var(--color1), var(--color2));
+  background: linear-gradient(90deg, var(--color2), var(--color1));
   border-radius: var(--radius);
 }
 
