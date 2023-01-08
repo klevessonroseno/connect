@@ -143,11 +143,11 @@ a {
 
 @media (max-width:370px) {
   .text-side {
-    order: -1;
+    order: -1 !important;
   }
 
   .img-side {
-    order: 1;
+    order: 1 !important;
   }
 
   .logo h1 {
