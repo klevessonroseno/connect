@@ -102,20 +102,6 @@ a {
   flex: 1 1 280px;
 }
 
-@media (max-width:370px) {
-  .text-side {
-    order: -1;
-  }
-
-  .img-side {
-    order: 1;
-  }
-
-  .logo h1 {
-    display: none;
-  }
-}
-
 .img-side img {
   border-radius: var(--radius);
   min-width: 200px;
@@ -153,4 +139,18 @@ a {
 
 .footer div:first-child {
   flex: 0 0 235px;
+}
+
+@media (max-width:370px) {
+  .text-side {
+    order: -1;
+  }
+
+  .img-side {
+    order: 1;
+  }
+
+  .logo h1 {
+    display: none;
+  }
 }
